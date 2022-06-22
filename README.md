@@ -1,7 +1,8 @@
+## Nama =Agus Salim Nurdin
 
-Nama =Agus Salim Nurdin
-nim  =312010494
-kelas =TI.20.B2
+## Nim  =312010494
+
+## kelas =TI.20.B2
 
 
 # Lab11Web
