@@ -1,3 +1,9 @@
+
+Nama =Agus Salim Nurdin
+nim  =312010494
+kelas =TI.20.B2
+
+
 # Lab11Web
 ## Praktikum 11: PHP Framework (Codeigniter)
 Buat folder baru lab11_php_ci lalu Jalankan XAMPP Ubah file php.ini seperti berikut :
