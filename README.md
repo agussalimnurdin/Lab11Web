@@ -5,6 +5,9 @@
 ## kelas =TI.20.B2
 
 
+
+# Praktikum 11: PHP Framework (Codeigniter)
+
 # Lab11Web
 ## Praktikum 11: PHP Framework (Codeigniter)
 Buat folder baru lab11_php_ci lalu Jalankan XAMPP Ubah file php.ini seperti berikut :
@@ -168,6 +171,146 @@ about
 
 
 
-# THANK you
+
+# Praktikum 12: Framework Lanjutan (CRUD)
+## Membuat Database
+CREATE DATABASE lab_ci4;
+Membuat Tabel
+
+seperti gambar berikut
+
+![gambar 1](screenshot/Screenshot%20(45).png)
+
+Jalankan MySQL pada program XAMPP berjalan dan buat database seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(46).png)
+
+## Konfigurasi koneksi database
+Mengkonfigurasi koneksi database pada file .env seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(70).png)
+
+## Membuat Model
+Membuat file Model pada direktori app/Models dengan nama ArtikelModel.php seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(47).png)
+
+## Membuat Controller
+Membuat file Controller baru dengan nama Artikel.php pada direktori app/Controllers. seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(48).png)
+
+## Membuat View
+Membuat file Views baru dengan nama artikel pada direktori app/views, kemudian buat filebaru dengan nama index.php, seperti berikut 
+
+![gambar 1](screenshot/Screenshot%20(49).png)
+
+Jalankan server dan akses link : http://localhost:8080/artikel
+
+hasilnya
+
+![gambar 1](screenshot/Screenshot%20(50).png)
+
+Masukan data berikut pada database :
+
+![gambar 1](screenshot/Screenshot%20(51).png)
+
+Refresh kembali browser, sehingga akan ditampilkan hasilnya.
+
+![gambar 1](screenshot/Screenshot%20(52).png)
+
+## Membuat Tampilan Detail Artikel
+Menambahkan Detail pada Artikel.php seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(53).png)
+
+## Membuat View Detail
+Membuat file baru baru untuk halaman detail dengan nama app/views/artikel/detail.php. seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(54).png)
+
+Tambahkan rute baru pada Routes.php :
+
+![gambar 1](screenshot/Screenshot%20(55).png)
+
+Tampilan Artikel setelah di Klik :
+
+![gambar 1](screenshot/Screenshot%20(56).png)
+
+## Membuat Menu Admin
+Buat method baru pada Controller Artikel dengan nama admin_index() :
+
+![gambar 1](screenshot/Screenshot%20(57).png)
+
+Buat file baru dengan nama admin_index.php pada folder artikel :
+
+![gambar 1](screenshot/Screenshot%20(58).png)
+
+![gambar 1](screenshot/Screenshot%20(59).png)
+
+Tambahkan Routing baru pada Routes.php seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(60).png)
+
+Akses menu admin dengan url http://localhost:8080/admin/artikel :
+
+hasilnya
+
+![gambar 1](screenshot/Screenshot%20(61).png)
+
+## Menambah Data Artikel
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama add() :
+
+![gambar 1](screenshot/Screenshot%20(62).png)
+
+Lalu buat file baru dengan nama form_add.php pada folder artikel :
+
+![gambar 1](screenshot/Screenshot%20(63).png)
+
+tampilan saat klik artikel :
+
+![gambar 1](screenshot/Screenshot%20(64).png)
+
+## Mengubah Data artikel
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama edit() :
+
+![gambar 1](screenshot/Screenshot%20(65).png)
+
+Lalu buat file baru dengan nama edit_add.php pada folder artikel :
+
+![gambar 1](screenshot/Screenshot%20(67).png)
+
+Tampilan saat mengubah artikel :
+
+![gambar 1](screenshot/Screenshot%20(68).png)
+
+## Menghapus Data
+Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
+
+![gambar 1](screenshot/Screenshot%20(69).png)
+
+## Pertanyaan dan Tugas
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan 
+improvisasi
+
+jawab
+
+mohon maaf pak belum sampai ilmunya pak
+
+
+
+# Praktikum 13: Framework Lanjutan (Modul Login)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
