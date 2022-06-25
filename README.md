@@ -1,7 +1,5 @@
 ## Nama =Agus Salim Nurdin
-
 ## Nim  =312010494
-
 ## kelas =TI.20.B2
 
 
@@ -295,11 +293,90 @@ improvisasi
 
 jawab
 
-mohon maaf pak belum sampai ilmunya pak
+bismillahirrahmanirrahim
+
+
 
 
 
 # Praktikum 13: Framework Lanjutan (Modul Login)
+## Membuat Tabel User
+Membuat Tabel: User Login
+
+![gambar 1](screenshot/Screenshot%20(71).png)
+
+![gambar 1](screenshot/Screenshot%20(72).png)
+
+## Membuat Model User
+Selanjutnya adalah membuat Model untuk memproses data Login. Buat file baru pada direktori app/Models dengan nama UserModel.php
+
+![gambar 1](screenshot/Screenshot%20(73).png)
+
+## Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers. kemudian tambahkan fungsi index() sebagai berikut :
+
+![gambar 1](screenshot/Screenshot%20(74).png)
+
+![gambar 1](screenshot/Screenshot%20(75).png)
+
+## Membuat View Login
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php. Dengan kode berikut
+
+![gambar 1](screenshot/Screenshot%20(76).png)
+
+## Membuat Database Seeder
+Buka CLI dan masukan kode "php spark make:seeder UserSeeder", Hasilnya :
+
+![gambar 1](screenshot/Screenshot%20(77).png)
+
+Lalu buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut
+
+![gambar 1](screenshot/Screenshot%20(78).png)
+
+Selanjutnya buka kembali CLI dan ketik perintah "php spark db:seed UserSeeder" , Hasilnya :
+
+![gambar 1](screenshot/Screenshot%20(79).png)
+
+Selanjutnya buka url http://localhost:8080/user/login seperti berikut
+Hasilnya
+
+![gambar 1](screenshot/Screenshot%20(80).png)
+
+## Menambahkan Auth Filter
+Selanjutnya membuat filer untuk halaman admin. Buat file baru dengan nama Auth.php pada direktori app/Filters. berikut :
+
+![gambar 1](screenshot/Screenshot%20(81).png)
+
+Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+
+![gambar 1](screenshot/Screenshot%20(82).png)
+
+Selanjutnya buka file app/Config/Routes.php dan sesuaikan kode berikut :
+
+![gambar 1](screenshot/Screenshot%20(83).png)
+
+## Percobaan Akses Menu Admin
+Percobaan menu akses LOGIN
+
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka akan ditarik ke halaman login berikut :
+
+![gambar 1](screenshot/Screenshot%20(84).png)
+
+## Fungsi Logout
+Membuat Fungsi LOGOUT
+
+Tambahkan method logout pada Controller User seperti berikut :
+
+![gambar 1](screenshot/Screenshot%20(85).png)
+
+## Pertanyaan dan Tugas
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan 
+improvisasi.
+
+jawab
+bismillahirrahmanirrahim
+
+
 
 
 
