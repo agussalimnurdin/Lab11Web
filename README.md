@@ -429,7 +429,7 @@ Ujicoba file upload dengan mengakses menu tambah artikel.
 
 ![gambar 1](screenshot/99.jpg)
 
-# THANK YOU SO MUCH
+# THANK YOU SO MUCH.
 
 
 
