@@ -376,8 +376,60 @@ improvisasi.
 jawab
 bismillahirrahmanirrahim
 
+# Praktikum 14: Pagination dan Pencarian
+## Membuat Pagination
+Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi 
+kode pada method admin_index seperti berikut
 
+![gambar 1](screenshot/90.png)
 
+Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut
+dibawah deklarasi tabel data.
+
+![gambar 1](screenshot/91.jpg)
+
+Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat 
+hasilnya.
+
+![gambar 1](screenshot/92.jpg)
+
+## Membuat Pencarian
+Pencarian data digunakan untuk memfilter data.
+
+Untuk membuat pencarian data, buka kembali Controller Artikel, pada method 
+admin_index ubah kodenya seperti berikut.
+
+![gambar 1](screenshot/93.jpg)
+
+Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form 
+pencarian sebelum deklarasi tabel seperti berikut:
+
+![gambar 1](screenshot/94.png)
+
+Dan pada link pager ubah seperti berikut.
+
+![gambar 1](screenshot/95.jpg)
+
+Selanjutnya ujicoba dengan membuka kembali halaman admin artikel, masukkan kata 
+kunci tertentu pada form pencarian.
+
+![gambar 1](screenshot/96.jpg)
+
+## Upload Gambar
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller 
+Artikel, sesuaikan kode pada method add seperti berikut:
+
+![gambar 1](screenshot/97.jpg)
+
+Kemudian pada file views/artikel/form_add.php tambahkan field input file dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+
+![gambar 1](screenshot/98.jpg)
+
+Ujicoba file upload dengan mengakses menu tambah artikel.
+
+![gambar 1](screenshot/99.jpg)
+
+# THANK YOU SO MUCH
 
 
 

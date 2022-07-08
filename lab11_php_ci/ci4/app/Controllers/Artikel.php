@@ -81,10 +81,10 @@ class Artikel extends BaseController
         return view('artikel/form_edit', compact('title', 'data'));
     }
 
-public function delete($id) 
- {
- $artikel = new ArtikelModel();
- $artikel->delete($id);
- return redirect('admin/artikel');
- }
+    public function delete($id)
+    {
+        $artikel = new ArtikelModel();
+        $artikel->delete($id);
+        return redirect('admin/artikel');
+    }
 }
